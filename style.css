@@ -1,0 +1,84 @@
+
+
+body{
+    margin: 0px;
+    background-image: url(img/fundo.png);
+    background-size: 500px;
+}
+header{
+    height: 180px;
+}
+header #cabecalho{
+    background: #00003F; 
+}
+header .logo{
+    width: 245px;
+    height: 100px; 
+}
+main{
+    height: 5000px;
+    display: flex;
+    justify-content: center;
+
+}
+main .fundoMesGratis{
+    margin-top: -20px;
+    width: 540px;
+    height: 548px;
+    background: #00003F;
+    box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+
+color: #FFF;
+font-family: "Josefin Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: center;
+   margin-top: 45px;
+}
+h2{
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    text-align: center;
+}
+main .fundoPlano{
+    width: 251px;
+height: 479px;
+    margin-top: 45px;
+    color: #FFF;
+font-family: "Josefin Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    border-radius: 30px;
+background: #7059E6;
+box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
+    /*! display: flex; */
+    /*! justify-content: space-between; */
+    /*! direction: ; */
+    /*! row-gap: ; */
+    /*! flex-direction: column; */
+    /*! align-content: center; */
+}
+h3, h4{
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 16px;
+}
