@@ -1,10 +1,8 @@
-
-
 body{
     margin: 0px;
     background-image: url(img/fundo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 header{
     height: 180px;
@@ -17,62 +15,54 @@ header .logo{
     height: 100px; 
 }
 main{
-    height: 5000px;
+    height: ;
     display: flex;
     justify-content: center;
-
 }
 main .fundoMesGratis{
     margin-top: -20px;
-    width: 540px;
-    height: 548px;
+    width: 886px;
+    height: 710px;
     background: #00003F;
     box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
-    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 h1{
-
-color: #FFF;
-font-family: "Josefin Sans";
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-align: center;
-   margin-top: 45px;
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 45px;
 }
 h2{
     color: #FFF;
-font-family: "Josefin Sans";
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: "Josefin Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     text-align: center;
 }
 main .fundoPlano{
-    width: 251px;
-height: 479px;
+    width: 162px;
+    height: 341px;
     margin-top: 45px;
+    margin-bottom: 70px;
     color: #FFF;
-font-family: "Josefin Sans";
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     border-radius: 30px;
-background: #7059E6;
-box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
-    /*! display: flex; */
-    /*! justify-content: space-between; */
-    /*! direction: ; */
-    /*! row-gap: ; */
-    /*! flex-direction: column; */
-    /*! align-content: center; */
+    background: #7059E6;
+    box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
 }
 h3, h4{
     text-align: center;
@@ -89,34 +79,71 @@ h4{
     margin-left: 10px;
 }
 .botaoPlano {
-  display: block;
-  position: relative;
-  padding-left: 110px;
+    display: block;
+    position: relative;
+    padding-left: 70px;
     margin-top: 60px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 100px;
-  height: 55px;
-  width: 55px;
-  background-color: #eee;
-  border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 55px;
+    height: 55px;
+    width: 55px;
+    background-color: #eee;
+    border-radius: 50px;
 }
-.botaoPlano input:checked ~ .checkmark {
-   
-  background-color: white;
-  background-image: url(img/check-circle-fill.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position-x: -2px;
-    background-position-y: -2px;
-
+.botaoPlano input:checked ~ .checkmark {   
+    background-color: #00003F;
+    background-image: url(img/check-solid.svg);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position-x: 13px;
+    background-position-y: 10px;
+}
+.continuarBotao{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #7059E6;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.continuarBotao:link {
+  text-decoration: none;
+}
+.continuarBotao:hover {
+    background-color: #3019B4;
+}
+.continuarBotao:active {
+    background-color: #100866;
+}
+footer{
+    height: 150px; 
+}
+footer #rodape{
+    background: #00003F; 
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 10px;
 }
