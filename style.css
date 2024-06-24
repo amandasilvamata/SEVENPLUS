@@ -3,7 +3,8 @@
 body{
     margin: 0px;
     background-image: url(img/fundo.png);
-    background-size: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 header{
     height: 180px;
@@ -81,4 +82,41 @@ h3{
 }
 h4{
     font-size: 16px;
+}
+.bi-check-circle-fill{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.botaoPlano {
+  display: block;
+  position: relative;
+  padding-left: 110px;
+    margin-top: 60px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  height: 55px;
+  width: 55px;
+  background-color: #eee;
+  border-radius: 50px;
+}
+.botaoPlano input:checked ~ .checkmark {
+   
+  background-color: white;
+  background-image: url(img/check-circle-fill.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position-x: -2px;
+    background-position-y: -2px;
+
 }
