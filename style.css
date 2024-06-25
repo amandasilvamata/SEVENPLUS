@@ -15,7 +15,6 @@ header .logo{
     height: 100px; 
 }
 main{
-    height: ;
     display: flex;
     justify-content: center;
 }
@@ -99,6 +98,9 @@ h4{
     width: 55px;
     background-color: #eee;
     border-radius: 50px;
+}
+.checkmark:hover{
+    background-color: #a9a9a9;
 }
 .botaoPlano input:checked ~ .checkmark {   
     background-color: #00003F;
