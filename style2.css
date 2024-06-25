@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    height: 180px;
+}
+header #cabecalho{
+    background: #00003F; 
+}
+header .logo{
+    width: 245px;
+    height: 100px; 
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main .fundoMesGratis{
+    margin-top: -20px;
+    width: 886px;
+    height: 710px;
+    background: #00003F;
+    box-shadow: -30px 33px 20px 0px rgba(0, 0, 0, 0.70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    justify-content: space-evenly;
+}
+h1{
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.bi-check-circle-fill{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    color: white;
+}
+
+.homeBotao{
+    color: #FFF;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #7059E6;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.homeBotao:link {
+  text-decoration: none;
+}
+.homeBotao:hover {
+    background-color: #3019B4;
+}
+.homeBotao:active {
+    background-color: #100866;
+}
+footer{
+    height: 150px; 
+}
+footer #rodape{
+    background: #00003F; 
+    color: #FFF;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    position: sticky;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    margin: 0px;
+    padding: 10px;
+}
